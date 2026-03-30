@@ -3,6 +3,7 @@ from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 
+# k8s 배포 테스트
 def hello():
     print("Hello from Airflow DAG!")
 

@@ -16,7 +16,7 @@ with DAG(
     dag_id="sample_hello_dag",
     default_args=default_args,
     description="A simple test DAG",
-    schedule_interval="@hourly",
+    schedule="@hourly",
     start_date=datetime(2024, 1, 1),
     catchup=False,
 ) as dag:
